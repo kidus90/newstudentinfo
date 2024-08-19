@@ -1,0 +1,18 @@
+.firstColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 25%; /* Adjust the width as needed */
+}
+#list {
+  display: flex;
+  margin-left: 0px;
+}
+#selectlist {
+  padding: 8px; /* Reduce padding */
+  border-radius: 10px;
+  width: 100%;
+}
+#myTable {
+  margin-left: 50px;
+}

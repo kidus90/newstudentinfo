@@ -1,0 +1,27 @@
+.rightHeaderContainer{
+    display: flex;
+    height: 100vh;
+}
+.rightHeader{
+    display:flex;
+    flex-direction: row;
+    border: solid #9BEC00;
+    border-radius: 20px;
+    background-color: #fff;
+    justify-content:space-between;
+    width: 98%;
+    align-items: center;
+    padding: 7px;
+}
+.rightHeader img{
+    width: 200px;
+    margin: 10px;
+}
+.content{
+    display:flex;
+    flex-direction: column;
+    border: solid #9BEC00;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 7px;
+}

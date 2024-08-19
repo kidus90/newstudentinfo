@@ -1,0 +1,79 @@
+.leftNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #ecedeb;
+}
+.buttons {
+  border: none;
+  text-decoration: none;
+  text-align: center;
+  background-color: white;
+  font-size: 17px;
+  padding: 6px;
+  width: 96%; /* Reduce padding */
+  color: #06d001;
+}
+.leftNav a:hover {
+  background-color: #06d001;
+  color: white;
+}
+.logolinkdiv a:hover{
+  text-decoration: none;
+  background-color: #ecedeb;
+  color: #000;
+}
+.logolink{
+  text-decoration:none;
+  color: black;
+}
+
+.leftnavbox {
+  display: flex;
+  flex-direction: column;
+  border: solid #9bec00;
+  border-radius: 20px;
+  background-color: #fff;
+  width: 100%;
+}
+#title {
+  margin-left: 1em;
+}
+.logout {
+  display: flex;
+  text-decoration: none;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 23px; /* Reduce font size */
+  border: none;
+  padding: 6px; /* Reduce padding */
+}
+.logoutclass a:hover {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  background-color: red;
+  width: 100%;
+}
+.leftNav img {
+  width: 60px; /* Reduce image size */
+  margin: 5px; /* Reduce margin */
+}
+.logoname h3 {
+  display: flex;
+  margin-top: -25px;
+  font-size: 12px; /* Reduce font size */
+}
+.toplogo {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.logoname {
+  display: flex;
+  flex-direction: column;
+  margin-top: -13px;
+}
